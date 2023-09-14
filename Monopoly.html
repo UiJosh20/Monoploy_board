@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        background-color:aliceblue;
+        margin: 20px;
+}
+.board{
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        border: 2px solid rgb(10, 80, 138);
+        border-radius: 10px;
+        width: 685px;
+        height: 684px;
+        margin-left: 270px;
+        background-color: aquamarine;
+}
+/* style the class (space) */
+.space{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color:white;
+        width: 70px;
+        height: 70px;
+}
+.space-1{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color:white;
+        width: 70px;
+        height: 70px;
+}
+
+.space1{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: white;
+        width: 60px;
+        height: 70px;
+}
+
+.space2{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: white;
+        width: 50px;
+        height: 70px;
+}
+.space3{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: white;
+        width: 60px;
+        height: 70px;
+}
+</style>
+<body>
+    <audio autoplay loop src="audio/Sticky Wicket.mp3"></audio>
+    <div class="board">
+        <!-- space -->
+        <div class="space">
+            <!-- property -->
+            <div>
+            </div>
+        </div>
+
+                <!-- space -->
+                <div class="space1" style="margin-left:-608px;">
+                    <!-- property -->
+                    <div style="background-color: red; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                    </div>
+                </div>
+                <!-- ======================================= -->
+                <div class="space1" style="margin-left: -549px;">
+
+                </div>
+                <!-- =========================================== -->
+                <div class="space1" style="margin-left: -490px;">
+                    <!-- property -->
+                    <div style="background-color: red; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                    </div>
+                </div>
+                <div class="space1" style="margin-left: -430px;">
+                    <!-- property -->
+                    <div style="background-color: red; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                    </div>
+                </div>
+                <!-- ============================================== -->
+                <div class="space1" style="width: 60px; margin-left: -370px;">
+
+                </div>
+
+                <!-- =========================================== -->
+                <div class="space1" style="margin-left: -310px;">
+                    <!-- property -->
+                    <div style="background-color: rgb(255, 255, 0); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                    </div>
+                </div>
+                <div class="space1" style="margin-left: -250px;">
+                    <!-- property -->
+                    <div style="background-color: rgb(255, 255, 0); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                    </div>
+                </div>
+
+                <!-- ========================================= -->
+                <div class="space1" style="margin-left: -190px;">
+
+                </div>
+
+                <!-- ============================================= -->
+                <div class="space1" style="margin-left: -130px; width: 60px; margin-right: 600px; ">
+                    <!-- property -->
+                    <div style="background-color: rgb(255, 255, 0); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                    </div>
+                </div>
+
+            <div class="space" style="margin-left: -600px; width: 74px;">
+            <!-- property -->
+            <div>
+            </div>
+        </div>
+
+        <!-- ==========================left side============================== -->
+        <div style="margin-top:-5px; margin-left: 5px; margin-bottom: 100px;">
+        <div class="space3" style="rotate: -90deg;">
+            <!-- property -->
+            <div style="background-color: rgb(250, 145, 7); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+        </div>
+        <div class="space3" style="rotate: -90deg; margin-top: -10px;">
+            <!-- property -->
+            <div style="background-color: rgb(250, 145, 7); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+
+                <!-- community chest -->
+            <div style="margin-left: -100px; margin-top:350px; rotate:32deg;">
+                <p style="color:black; font-size: 12px;">Community Chest</p>
+                <div style="border: 2px dotted black; width: 100px; height: 60px; ">
+                </div>
+            </div>
+        </div>
+
+        <div class="space3" style="rotate: -90deg; margin-top: -10px;">
+
+        </div>
+        <div class="space3" style="rotate: -90deg; margin-top: -10px;">
+            <!-- property -->
+            <div style="background-color: rgb(250, 145, 7); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+        </div>
+        <div class="space3" style="rotate: -90deg; margin-top: -10px; margin-bottom: -10px;">
+
+        </div>
+
+        <div class="space3" style="rotate: -90deg;">
+            <!-- property -->
+            <div style="background-color: purple; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+        </div>
+        <div class="space3" style="rotate: -90deg; margin-top: -10px;">
+            <!-- property -->
+            <div style="background-color: purple; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+        </div>
+        <div class="space3" style="rotate: -90deg; margin-top: -10px;">
+
+                            <!-- community chest -->
+                            <div style="margin-left: -4px; margin-top:850px; rotate:32deg;">
+                                <p style="color:black; font-size: 12px;">Chance</p>
+                                <div style="border: 2px dotted black; width: 100px; height: 60px; ">
+                                </div>
+                            </div>
+
+        </div>
+        <div class="space3" style="rotate: -90deg; margin-top: -10px;">
+            <!-- property -->
+            <div style="background-color: purple; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+        </div>
+
+        <!-- space -->
+        <div class="space-1" style="margin-top: -5px; margin-left: -5px; rotate: 90deg; ">
+            <!-- property -->
+            <div>
+            </div>
+        </div>
+
+        <!-- =======================right side================= -->
+        <div style="margin-top: -615px; margin-left: 612px;">
+
+            <div class="space3" style="rotate: 90deg;">
+                <!-- property -->
+                <div style="background-color: green; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                </div>
+            </div>
+            <div class="space3" style="rotate: 90deg; margin-top: -10px;">
+                <!-- property -->
+                <div style="background-color: green; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                </div>
+            </div>
+    
+            <div class="space3" style="rotate: 90deg; margin-top: -10px;">
+    
+            </div>
+            <div class="space3" style="rotate: 90deg; margin-top: -10px;">
+                <!-- property -->
+                <div style="background-color: green; border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                </div>
+            </div>
+            <div class="space3" style="rotate: 90deg; margin-top: -10px; margin-bottom: -10px;">
+    
+            </div>
+            
+            <div class="space3" style="rotate: 90deg;">
+
+            </div>
+            <div class="space3" style="rotate: 90deg; margin-top: -10px;">
+                <!-- property -->
+                <div style="background-color: rgb(14, 118, 236); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                </div>
+            </div>
+            <div class="space3" style="rotate: 90deg; margin-top: -10px;">
+    
+            </div>
+            <div class="space3" style="rotate: 90deg; margin-top: -10px;">
+                <!-- property -->
+                <div style="background-color: rgb(14, 118, 236); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+                </div>
+            </div>
+    
+        </div>
+
+
+        <div>
+
+        </div>
+    </div>
+
+    
+    <!-- =======================bottom======================== -->
+        <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -607px;">
+            <!-- property -->
+            <div style="background-color: rgb(54, 232, 245); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+            </div>
+        </div>
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -548px;">
+        <!-- property -->
+        <div style="background-color: rgb(54, 232, 245); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+        </div>
+    </div>
+
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -489px;">
+
+    </div>
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -430px;">
+        <!-- property -->
+        <div style="background-color: rgb(54, 232, 245); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+        </div>
+    </div>
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-bottom: -10px; margin-left: -370px;">
+
+    </div>
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-bottom: -10px; margin-left: -310px;">
+
+    </div>
+
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -3px; margin-left: -250px;">
+        <!-- property -->
+        <div style="background-color: rgb(48, 6, 163); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+        </div>
+    </div>
+
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -190px;">
+
+    </div>
+    <div class="space3" style="rotate: -180deg; margin-top: 540px; margin-left: -130px;">
+        <!-- property -->
+        <div style="background-color: rgb(48, 6, 163); border: 0px solid black; margin-top: 45px; width: 100px; padding: 10px;">
+        </div>
+    </div>
+
+    <div class="space-1" style="margin-top: 540px; margin-left: -600px; width: 74px; ">
+        <!-- property -->
+        <div>
+        </div>
+    </div>
+
+        
+    <img src="image/PngItem_748408.png" alt="" width="360" style="margin-left: 160px; margin-top: -440px;">
+
+
+
+</div>
+</body>
+</html>
